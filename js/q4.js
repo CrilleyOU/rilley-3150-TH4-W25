@@ -23,13 +23,9 @@ const descriptions = document.querySelectorAll("p.description");
 
 
 // Query Selector
-// Mix between get element by class name and ID
-// Uses class name but finds the first instance of it
+// Finds the first instance of an element that matches the query
 // Can only grab one element
+
+// This will grab the first item with the class "list-item" 
 const firstListItem = document.querySelector("list-item");
 
-
-// console.log(firstListItem);
-// console.log(listitems);
-// console.log(title);
-// console.log(paragraph);
